@@ -342,3 +342,7 @@ healthchecksdb
 /Library
 /Logs
 /Temp
+/Unity.AssetBundleBrowser.Editor.csproj
+/umamusume.csproj
+/UmaModStudio.sln
+/Assembly-CSharp.csproj
