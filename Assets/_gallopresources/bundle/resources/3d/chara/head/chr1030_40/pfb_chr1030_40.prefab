@@ -3552,7 +3552,7 @@ GameObject:
   - component: {fileID: 6205075067991256230}
   - component: {fileID: 741280470083531407}
   - component: {fileID: 5384137792666086502}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: M_Halloween
   m_TagString: Untagged
   m_Icon: {fileID: 0}
