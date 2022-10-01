@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteAlways]
 public class UmaViewerGlobalShader : MonoBehaviour
 {
     //仅用于设置游戏开局shader全局变量的初始值，若想即时调整请使用Editor内部工具
