@@ -18,26 +18,24 @@ public class LoadAB : MonoBehaviour
 
         AssetBundle shader_ab = AssetBundle.LoadFromFile(head + "manifest/shader");
 
-        AssetBundle e_0 = AssetBundle.LoadFromFile(head + "3d/chara/head/chr1030_40/ikcols/ast_chr1030_40_ikcol00");
+        AssetBundle e_0 = AssetBundle.LoadFromFile(head + "3d/chara/head/chr1024_00/ikcols/ast_chr1024_00_ikcol00");
 
-        AssetBundle e_1 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1030_40/facial/ast_chr1030_40_ear_target");
+        AssetBundle e_1 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1024_00/facial/ast_chr1024_00_ear_target");
 
-        AssetBundle e_2 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1030_40/materials/mtl_chr1030_40_cheek");
+        AssetBundle e_2 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1024_00/materials/mtl_chr1024_00_cheek");
 
-        AssetBundle e_3 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1030_40/materials/mtl_chr1030_40_eye");
+        AssetBundle e_3 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1024_00/materials/mtl_chr1024_00_eye");
 
-        AssetBundle e_4 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1030_40/materials/mtl_chr1030_40_face");
+        AssetBundle e_4 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1024_00/materials/mtl_chr1024_00_face");
         AssetBundle e_4_0 = AssetBundle.LoadFromFile(head + "3d/chara/common/textures/tex_chr_env000");
 
-        AssetBundle e_5 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1030_40/materials/mtl_chr1030_40_hair");
+        AssetBundle e_5 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1024_00/materials/mtl_chr1024_00_hair");
 
-        AssetBundle e_6 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1030_40/materials/mtl_chr1030_40_mayu");
+        AssetBundle e_6 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1024_00/materials/mtl_chr1024_00_mayu");
 
-        AssetBundle e_7 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1030_40/materials/mtl_chr1030_40_tear");
+        AssetBundle e_7 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1024_00/materials/mtl_chr1024_00_tear");
 
-        AssetBundle e_8 = AssetBundle.LoadFromFile(head + "sourceresources/3d/chara/head/chr1030_40/textures/tex_chr1030_40_cheek0");
-
-        AssetBundle main = AssetBundle.LoadFromFile(head + "3d/chara/head/chr1030_40/pfb_chr1030_40");
+        AssetBundle main = AssetBundle.LoadFromFile(head + "3d/chara/head/chr1024_00/pfb_chr1024_00");
 
         /*
         Debug.Log(main.GetInstanceID());

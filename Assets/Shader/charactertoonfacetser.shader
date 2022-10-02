@@ -282,11 +282,13 @@ Shader "Gallop/3D/Chara/ToonFace/TSER" {
                 r0.w = min(1, r0.w);
 
                 //r5.xyzw = t2.Sample(s2_s, f.o1.xy).xyzw;
-                r5 = tex2D(_OptionMaskMap, f.o1.xy);
+                //r5 = tex2D(_OptionMaskMap, f.o1.xy);
 
-                r1.yzw = float3(-0, -0, -0.5) + r5.xyz;
-                r2.w = asint(_UseOptionMaskMap);
-                r1.yzw = r2.www * r1.yzw + float3(0, 0, 0.5);
+                //预处理可选贴图
+                float4 option = tex2D(_OptionMaskMap, f.o1.xy);
+                r1.z = option.y * _UseOptionMaskMap;
+                r1.w = (option.z - 0.5) * _UseOptionMaskMap + 0.5;
+
                 r0.w = r1.y * r0.w;
                 r5.xyz = _SpecularColor.xyz * _LightColor0.xyz;
                 r5.xyz = r5.xyz * r0.www;
@@ -335,9 +337,14 @@ Shader "Gallop/3D/Chara/ToonFace/TSER" {
                 r10 = tex2D(_MainTex, f.o1.xy);
 
                 r10.xyz = _LightColor0.xyz * r10.xyz;
+
                 result.w = r10.w;
                 r7.xyz = r10.xyz * r9.xyz + r7.xyz;
+
+                
+
                 r9.xyz = -r7.xyz + r6.xyz;
+
                 r0.w = cmp(0 >= _ToonFeather);
                 r0.w = r0.w ? 1.000000 : 0;
                 r2.w = -_ToonFeather + _ToonStep;
@@ -355,10 +362,15 @@ Shader "Gallop/3D/Chara/ToonFace/TSER" {
                 r2.w = saturate(1 + r2.w);
                 r0.w = r0.w * -r2.w + r2.w;
                 r11.xyz = r0.www * r9.xyz + r7.xyz;
+
+                
+
                 r5.xyz = r11.xyz + r5.xyz;
                 r11.xyz = _GlobalDirtToonColor.xyz + -_GlobalDirtColor.xyz;
                 r11.xyz = r0.www * r11.xyz + _GlobalDirtColor.xyz;
                 r11.xyz = r11.xyz + -r5.xyz;
+
+                
 
                 //r12.xyzw = t4.Sample(s5_s, f.o1.xy).xyzw;
                 r12 = tex2D(_DirtTex, f.o1.xy);
@@ -368,10 +380,16 @@ Shader "Gallop/3D/Chara/ToonFace/TSER" {
                 r0.w = r12.x * _DirtRate[0] + r0.w;
                 r0.w = r12.z * _DirtRate[2] + r0.w;
                 r5.xyz = r0.www * r11.xyz + r5.xyz;
+
+                
+
                 r0.xyz = r5.xyz * r0.xyz;
                 r0.xyz = r0.xyz * _EnvBias + -r5.xyz;
                 r1.z = _EnvRate * r1.z;
                 r0.xyz = r1.zzz * r0.xyz + r5.xyz;
+
+                
+
                 r1.z = _RimStep + -_RimFeather;
                 r1.x = r1.z + -r1.x;
                 r1.x = r1.x / _RimFeather;
@@ -388,6 +406,7 @@ Shader "Gallop/3D/Chara/ToonFace/TSER" {
                 r1.x = _RimShadowRate + r1.x;
                 r5.xyz = r5.xyz * r1.xxx;
                 r0.xyz = r5.xyz * _GlobalRimColor.xyz + r0.xyz;
+
                 r1.xz = cmp(float2(-0, -0) >= float2(_RimHorizonOffset2, _RimVerticalOffset2));
                 r1.xz = r1.xz ? float2(1, 1) : float2(-1, -1);
                 r3.xyz = r3.xyz * r1.xxx + -r2.xyz;

@@ -49,6 +49,14 @@ class SelectAllOfTagMod : ScriptableWizard
 
     void OnWizardCreate()
     {
+        //加载需要替换的shader
+        Shader cheekShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/charactermultiplycheek.shader", typeof(Shader));
+        Shader eyeShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/charactertooneyet.shader", typeof(Shader));
+        Shader faceShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/charactertoonfacetser.shader", typeof(Shader));
+        Shader hairShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/charactertoonhairtser.shader", typeof(Shader));
+        Shader mayuShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/charactertoonmayu.shader", typeof(Shader));
+        Shader tearShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/characterunlittear.shader", typeof(Shader));
+
 
         Debug.Log(Selection.objects[0]);
 
@@ -135,6 +143,31 @@ class SelectAllOfTagMod : ScriptableWizard
                             tex_name_list.Add(new JValue(tex_path));
                         }
                     }
+                }
+
+                //替换材质shader
+                switch (mat_shader.name)
+                {
+                    case "Gallop/3D/Chara/MultiplyCheek":
+                        mat.shader = cheekShader;
+                        break;
+                    case "Gallop/3D/Chara/ToonEye/T":
+                        mat.shader = eyeShader;
+                        break;
+                    case "Gallop/3D/Chara/ToonFace/TSER":
+                        mat.shader = faceShader;
+                        break;
+                    case "Gallop/3D/Chara/ToonHair/TSER":
+                        mat.shader = hairShader;
+                        break;
+                    case "Gallop/3D/Chara/ToonMayu":
+                        mat.shader = mayuShader;
+                        break;
+                    case "Gallop/3D/Chara/UnlitTear":
+                        mat.shader = tearShader;
+                        break;
+                    default:
+                        break;
                 }
 
 
@@ -229,6 +262,31 @@ class SelectAllOfTagMod : ScriptableWizard
                             tex_name_list.Add(new JValue(tex_path));
                         }
                     }
+                }
+
+                //替换材质shader
+                switch (mat_shader.name)
+                {
+                    case "Gallop/3D/Chara/MultiplyCheek":
+                        mat.shader = cheekShader;
+                        break;
+                    case "Gallop/3D/Chara/ToonEye/T":
+                        mat.shader = eyeShader;
+                        break;
+                    case "Gallop/3D/Chara/ToonFace/TSER":
+                        mat.shader = faceShader;
+                        break;
+                    case "Gallop/3D/Chara/ToonHair/TSER":
+                        mat.shader = hairShader;
+                        break;
+                    case "Gallop/3D/Chara/ToonMayu":
+                        mat.shader = mayuShader;
+                        break;
+                    case "Gallop/3D/Chara/UnlitTear":
+                        mat.shader = tearShader;
+                        break;
+                    default:
+                        break;
                 }
 
 
