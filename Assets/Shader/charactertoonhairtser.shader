@@ -458,6 +458,7 @@ Shader "Gallop/3D/Chara/ToonHair/TSER" {
 			r0.xyz = r0.xxx * r2.xyz + r1.xyz;
 
 
+			
 			r1.xyz = _RimColor.xyz + -_SpecularColor.xyz;
 			r1.xyz = _RimSpecRate * r1.xyz + _SpecularColor.xyz;
 			r2.x = dot(r3.xyz, f.o4.xyz);

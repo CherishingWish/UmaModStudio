@@ -57,6 +57,9 @@ class SelectAllOfTagMod : ScriptableWizard
         Shader mayuShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/charactertoonmayu.shader", typeof(Shader));
         Shader tearShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/characterunlittear.shader", typeof(Shader));
 
+        Shader toonShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/charactertoontser.shader", typeof(Shader));
+        Shader nolineToonShader = (Shader)AssetDatabase.LoadAssetAtPath("Assets/Shader/characternolinetoontser.shader", typeof(Shader));
+
 
         Debug.Log(Selection.objects[0]);
 
@@ -165,6 +168,12 @@ class SelectAllOfTagMod : ScriptableWizard
                         break;
                     case "Gallop/3D/Chara/UnlitTear":
                         mat.shader = tearShader;
+                        break;
+                    case "Gallop/3D/Chara/Toon/TSER":
+                        mat.shader = toonShader;
+                        break;
+                    case "Gallop/3D/Chara/NolineToon/TSER":
+                        mat.shader = nolineToonShader;
                         break;
                     default:
                         break;

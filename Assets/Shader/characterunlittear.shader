@@ -14,6 +14,7 @@ Shader "Gallop/3D/Chara/UnlitTear" {
 		Pass {
 		Name "UnlitCheek"
 		Tags { "FORCENOSHADOWCASTING" = "true" "QUEUE" = "AlphaTest-150" "RenderType" = "Transparent" }
+		Offset [_OffsetFactor], [_OffsetUnits]
 		Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
 		ColorMask RGB 0
 		ZWrite Off

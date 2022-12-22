@@ -1,0 +1,678 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a282b585a15d74c893e43fbd096bea, type: 3}
+  m_Name: ast_chr1021_00_ear_target
+  m_EditorClassIdentifier: 
+  _targetFaces:
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: 8.881784e-18, y: 3.5527136e-17, z: 3.5527136e-17}
+        _scale: {x: 1, y: 1, z: 1}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 7.9936054e-17, y: 0.07032512, z: -4.4408918e-17}
+        _scale: {x: 1, y: 1, z: 1}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0.00000035910261, y: 0.04800039, z: -0.00000012945942}
+        _scale: {x: 1, y: 1, z: 1}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: -1.5099033e-16, y: -3.907985e-16, z: 6.217249e-17}
+        _scale: {x: 1, y: 1, z: 1}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: -2.6645352e-17, y: 0.07032527, z: 3.5527136e-17}
+        _scale: {x: 1, y: 1, z: 1}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: -0.0000000015510309, y: 0.048, z: 6.377081e-10}
+        _scale: {x: 1, y: 1, z: 1}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -1.7763568e-17, y: 0, z: 1.7763568e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -16.141253, y: 0.526472, z: -9.204096}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 2.6645354e-17, y: 0, z: -4.4408945e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -19.10983, y: 12.019608, z: 20.46894}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -30.734402, y: 0.664072, z: 4.235543}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 3.5527143e-17, y: 0, z: 2.6645347e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -16.141253, y: -0.526472, z: 9.204096}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 8.881784e-18, y: 0, z: -6.6613384e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -19.10983, y: -12.019608, z: -20.46894}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 5.551115e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -30.734402, y: -0.664072, z: -4.235543}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -1.7763568e-17, y: 0, z: -5.3290704e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 37.99485, y: 15.378724, z: -15.108038}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 8.881782e-18, y: 0, z: 4.4408918e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 48.037155, y: 27.077726, z: 1.128294}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: -0.0020965599, y: -0.0041766055, z: -0.005722847}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 23.814154, y: -13.955093, z: -14.716988}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 4.4408925e-17, y: 3.5527156e-17, z: -1.1546319e-16}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 37.99485, y: -15.378724, z: 15.108038}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: -8.881784e-18, y: 0, z: 7.105427e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 48.037155, y: -27.077726, z: -1.128294}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0.00209656, y: -0.0041766055, z: -0.005722846}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 23.814154, y: 13.955093, z: 14.716988}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -1.7763568e-17, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0.6213948, y: 2.309222, z: -13.544143}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: -8.881782e-18, y: 0, z: 3.5527136e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 34.79529, y: 6.116965, z: -3.402048}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 3.5527143e-17, y: 0, z: -8.881786e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0.6213948, y: -2.309222, z: 13.544143}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: -7.9936054e-17, y: 0, z: 2.6645354e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 34.79529, y: -6.116965, z: 3.402048}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -1.7697042, y: 0.352774, z: 15.387148}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 4.6975193, y: 3.928311, z: 12.220181}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0, y: 0, z: 0}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 1.7763568e-17, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -1.7697042, y: -0.352774, z: -15.387148}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: -2.220446e-16, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 4.6975193, y: -3.928311, z: -12.220181}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -8.881784e-18, y: 0, z: -8.881784e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 8.868894, y: 0.630746, z: -5.234981}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 2.6645354e-17, y: 0, z: 2.664535e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 22.862427, y: 2.916892, z: -12.973955}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 9.082519, y: 0.476268, z: -5.235566}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 8.881789e-18, y: 0, z: -2.6645354e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 8.868894, y: -0.630746, z: 5.234981}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: -2.6645352e-17, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 22.862427, y: -2.916892, z: 12.973955}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 9.082519, y: -0.476268, z: 5.235566}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -8.881784e-18, y: 0, z: -8.881784e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -23.355967, y: 55.48498, z: -10.373834}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 4.4408945e-18, y: 0, z: 6.106226e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 17.48856, y: 21.864948, z: 7.772827}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 12.753676, y: 1.45471, z: -22.951763}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: -8.881776e-18, y: 0, z: -1.7763571e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -23.355967, y: -55.48498, z: 10.373834}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 4.8849813e-17, y: 0, z: 3.8857802e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 17.48856, y: -21.864948, z: -7.772827}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 1.110223e-16, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 12.753676, y: -1.45471, z: 22.951763}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: -8.881784e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -3.4574168, y: 27.618042, z: 8.677882}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 1.665335e-17, y: 0, z: 3.108624e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -12.206948, y: 18.17609, z: 15.90063}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -12.088003, y: 7.440431, z: 12.801224}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: -1.7763565e-17, y: 3.5527156e-17, z: -1.7763571e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -3.4574168, y: -27.618042, z: -8.677882}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 4.4408918e-17, y: 0, z: -5.3290704e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -12.206948, y: -18.17609, z: -15.90063}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -12.088003, y: -7.440431, z: -12.801224}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -4.4408918e-17, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -32.771976, y: 49.60209, z: -42.20423}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 2.6645354e-17, y: 0, z: 9.7699626e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 4.640053, y: 40.894875, z: -33.998276}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -14.574199, y: -23.855652, z: -20.796194}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 5.3290707e-17, y: -3.552713e-17, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -32.771976, y: -49.60209, z: 42.20423}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 2.6645352e-17, y: 0, z: -1.7763568e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 4.640053, y: -40.894875, z: 33.998276}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 1.110223e-16, y: 0, z: 5.551115e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -14.574199, y: 23.855652, z: 20.796194}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -2.6645352e-17, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 2.8908029, y: -9.073107, z: -23.045597}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: -8.881782e-18, y: 0, z: 8.881782e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -0.26627305, y: -3.194629, z: -9.914511}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0.71812797, y: 2.06138, z: -14.35766}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 7.105428e-17, y: 0, z: -1.7763571e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 2.8908029, y: 9.073107, z: 23.045597}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: -4.4408918e-17, y: 0, z: -1.3322677e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -0.26627305, y: 3.194629, z: 9.914511}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: -5.551115e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0.71812797, y: -2.06138, z: 14.35766}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -8.881784e-18, y: 0, z: -8.881784e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0.42802048, y: 6.573402, z: -6.254422}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 2.6645354e-17, y: 0, z: -2.6645354e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 34.457817, y: 40.707474, z: -15.881283}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 4.563433, y: 19.086329, z: -22.927975}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 1.7763578e-17, y: 0, z: -8.881786e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 0.42802048, y: -6.573402, z: 6.254422}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: -4.4408918e-17, y: 0, z: 2.6645354e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 34.457817, y: -40.707474, z: 15.881283}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 4.563433, y: -19.086329, z: 22.927975}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: 2.6645352e-17, y: 3.5527136e-17, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 5.416078, y: -0.921659, z: 23.930037}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: -2.664535e-17, y: 0, z: -8.881786e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -4.4341025, y: 1.570346, z: 3.468012}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -4.6677914, y: 1.080221, z: 0.870071}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: -5.3290694e-17, y: 3.5527156e-17, z: -2.6645354e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 5.416078, y: 0.921659, z: -23.930037}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 8.881784e-18, y: 0, z: -8.881784e-18}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -4.4341025, y: -1.570346, z: -3.468012}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -4.6677914, y: -1.080221, z: -0.870071}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -6.217249e-17, y: 0, z: 1.7763568e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -19.088617, y: 13.787755, z: -64.08925}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 6.217249e-17, y: 0, z: 2.664535e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 40.482903, y: 12.679163, z: 13.243335}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -1.1256928, y: 6.106372, z: 5.897666}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 1.3322677e-16, y: 3.5527156e-17, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -19.088617, y: -13.787755, z: 64.08925}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: -8.881784e-18, y: 0, z: 7.105427e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 40.482903, y: -12.679163, z: -13.243335}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -1.1256928, y: -6.106372, z: -5.897666}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: 8.881784e-18, y: 3.5527136e-17, z: -7.105427e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 53.456585, y: -0.921659, z: 23.930037}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: -1.7763565e-17, y: 0, z: 4.4408918e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 43.606403, y: 1.570346, z: 3.468012}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 43.372715, y: 1.080221, z: 0.870071}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: -4.4408918e-17, y: 1.06581415e-16, z: -1.5987212e-16}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 53.456585, y: 0.921659, z: -23.930037}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 6.217249e-17, y: 0, z: 1.0658141e-16}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 43.606403, y: -1.570346, z: -3.468012}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: -5.551115e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 43.372715, y: -1.080221, z: -0.870071}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -2.6645352e-17, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 6.476833, y: -14.715163, z: -23.258799}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 6.217249e-17, y: 0, z: 4.884981e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -3.6718614, y: -16.527199, z: -42.27279}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -5.85123, y: -7.589019, z: -26.904556}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: 7.105428e-17, y: 0, z: -1.7763571e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 6.476833, y: 14.715163, z: 23.258799}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: -7.9936054e-17, y: 0, z: -2.6645352e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -3.6718614, y: 16.527199, z: 42.27279}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: -5.551115e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -5.85123, y: 7.5890193, z: 26.904556}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: 8.881784e-18, y: 0, z: 3.5527136e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -36.015842, y: -0.921659, z: 23.930037}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: -1.7763565e-17, y: 0, z: 2.664535e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -45.866024, y: 1.570346, z: 3.468012}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -27.757372, y: 1.080221, z: 0.870071}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: -3.552713e-17, y: 7.1054285e-17, z: 6.217249e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -36.015842, y: 0.921659, z: -23.930037}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 1.7763568e-17, y: 0, z: -7.105427e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -45.866024, y: -1.570346, z: -3.468012}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 5.551115e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -27.757372, y: -1.080221, z: -0.870071}
+        IsOverrideTarget: 0
+  - _faceGroupInfo:
+    - _trsArray:
+      - _path: Ear_01_R
+        _isValidScaleTransform: 0
+        _position: {x: -1.7763568e-17, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 56.72179, y: 113.366394, z: 81.000175}
+        IsOverrideTarget: 0
+      - _path: Ear_02_R
+        _isValidScaleTransform: 0
+        _position: {x: 8.881782e-18, y: 0, z: 1.1546319e-16}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -4.4341025, y: 1.570346, z: 3.468012}
+        IsOverrideTarget: 0
+      - _path: Ear_03_R
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -12.420704, y: 19.108433, z: 1.399488}
+        IsOverrideTarget: 0
+    - _trsArray:
+      - _path: Ear_01_L
+        _isValidScaleTransform: 0
+        _position: {x: -8.881776e-18, y: 0, z: -1.7763571e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: 56.72179, y: -113.366394, z: -81.000175}
+        IsOverrideTarget: 0
+      - _path: Ear_02_L
+        _isValidScaleTransform: 0
+        _position: {x: 1.0658141e-16, y: 0, z: 3.5527136e-17}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -4.4341025, y: -1.570346, z: -3.468012}
+        IsOverrideTarget: 0
+      - _path: Ear_03_L
+        _isValidScaleTransform: 0
+        _position: {x: 0, y: 0, z: 0}
+        _scale: {x: 0, y: 0, z: 0}
+        _rotation: {x: -12.420704, y: -19.108433, z: -1.3994884}
+        IsOverrideTarget: 0
