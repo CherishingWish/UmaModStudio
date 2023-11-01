@@ -46,7 +46,7 @@ Shader "Gallop/3D/Chara/ToonMayu" {
 		Pass {
 		Name "ToonMayu/R"
 		LOD 100
-		Tags { "LIGHTMODE" = "FORWARDBASE" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
+		Tags { "LIGHTMODE" = "UniversalForward" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
 		ZTest Off
 		ZWrite Off
 		Stencil {

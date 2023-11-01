@@ -34,11 +34,11 @@ Shader "Gallop/3D/Chara/ToonEye/T" {
         //DummyShaderTextExporter
             SubShader{
                 LOD 100
-                Tags { "Mirror" = "Chara" "RenderType" = "Opaque" }
+                Tags { "RenderType" = "Opaque" }
                 Pass {
                 Name "ToonEye"
                 LOD 100
-                Tags { "Mirror" = "Chara" "RenderType" = "Opaque" "SHADOWSUPPORT" = "true" }
+                Tags { "LIGHTMODE" = "UniversalForward" "RenderType" = "Opaque" }
                 ZTest [_ZTest]
                 ZWrite [_ZWrite]
                 Stencil

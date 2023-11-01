@@ -12,7 +12,7 @@ Shader "Gallop/3D/Chara/MultiplyCheek" {
 		Tags { "FORCENOSHADOWCASTING" = "true" "QUEUE" = "AlphaTest-150" "RenderType" = "Transparent" }
 		Pass {
 		Name "MultiplyCheek"
-		Tags { "FORCENOSHADOWCASTING" = "true" "QUEUE" = "AlphaTest-150" "RenderType" = "Transparent" }
+		Tags { "FORCENOSHADOWCASTING" = "true" "LIGHTMODE" = "UniversalForward" "QUEUE" = "AlphaTest-150" "RenderType" = "Transparent" }
 		Blend DstColor Zero, DstColor Zero
 		ColorMask RGB 0
 		ZWrite Off

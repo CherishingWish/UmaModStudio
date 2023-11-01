@@ -63,11 +63,11 @@ Shader "Gallop/3D/Chara/ToonFace/TSER" {
 	//DummyShaderTextExporter
 	SubShader{
 		LOD 100
-		Tags { "Mirror" = "Chara" "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
+		Tags { "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
 		Pass {
 		    Name "Toon"
 		    LOD 100
-		    Tags { "LIGHTMODE" = "FORWARDBASE" "Mirror" = "Chara" "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" "SHADOWSUPPORT" = "true" }
+		    Tags { "LIGHTMODE" = "UniversalForward" "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
 		    Stencil
 		    {
 			    Ref[_StencilMask]
@@ -522,7 +522,7 @@ Shader "Gallop/3D/Chara/ToonFace/TSER" {
         Pass{
         Name "Outline"
         LOD 100
-        Tags { "Mirror" = "Chara" "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
+        Tags { "LIGHTMODE" = "Outline" "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
         ZTest Less
         Cull Front
         Offset 1, -1

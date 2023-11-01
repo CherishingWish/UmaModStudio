@@ -1,10 +1,11 @@
 {
   "dependencies": {
-    "com.unity.collab-proxy": "1.15.4",
     "com.unity.formats.fbx": "4.2.0",
     "com.unity.ide.rider": "2.0.7",
-    "com.unity.ide.visualstudio": "2.0.12",
+    "com.unity.ide.visualstudio": "2.0.17",
     "com.unity.ide.vscode": "1.2.4",
+    "com.unity.nuget.newtonsoft-json": "2.0.0",
+    "com.unity.render-pipelines.universal": "10.7.0",
     "com.unity.test-framework": "1.1.29",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.4.8",
@@ -14,7 +15,6 @@
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
     "com.unity.modules.audio": "1.0.0",
-    "com.unity.modules.autostreaming": "1.0.0",
     "com.unity.modules.cloth": "1.0.0",
     "com.unity.modules.director": "1.0.0",
     "com.unity.modules.imageconversion": "1.0.0",

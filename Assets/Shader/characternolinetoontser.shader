@@ -53,11 +53,11 @@ Shader "Gallop/3D/Chara/NolineToon/TSER" {
         SubShader
     {
         LOD 100
-        Tags { "Mirror" = "Chara" "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
+        Tags { "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
         Pass {
         Name "Toon"
         LOD 100
-        Tags { "LIGHTMODE" = "FORWARDBASE" "Mirror" = "Chara" "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" "SHADOWSUPPORT" = "true" }
+        Tags { "LIGHTMODE" = "UniversalForward" "MyShadow" = "Chara" "QUEUE" = "Geometry-1" "RenderType" = "Opaque" }
         Stencil {
             Ref[_StencilMask]
             Comp[_StencilComp]
