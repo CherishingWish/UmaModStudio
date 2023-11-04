@@ -72,7 +72,7 @@ public class LoadAB : MonoBehaviour
         Main.LoadedBundles.Clear();
 
         //要换加载的模型修改这里
-        RecursiveLoadAsset(Main.AbList.FirstOrDefault(ab => ab.Name == "3d/chara/body/bdy1024_00/pfb_bdy1024_00"));
+        RecursiveLoadAsset(Main.AbList.FirstOrDefault(ab => ab.Name == "3d/chara/body/bdy1100_90/pfb_bdy1100_90"));
 
     }
 

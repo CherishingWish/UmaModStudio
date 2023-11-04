@@ -172,6 +172,9 @@ class SelectAllOfTagMod : ScriptableWizard
                     case "Gallop/3D/Chara/Toon/TSER":
                         mat.shader = toonShader;
                         break;
+                    case "Gallop/3D/Chara/Toon/TSERRfl":
+                        mat.shader = toonShader;
+                        break;
                     case "Gallop/3D/Chara/NolineToon/TSER":
                         mat.shader = nolineToonShader;
                         break;
